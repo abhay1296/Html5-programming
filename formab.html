@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<form action="Multimedia/video.html" method="post" enctype="multipart/form-data">
+<fieldset>
+	<legend><h3>Registration Form</h3></legend>
+	<p><label>Name : </label><input type="text" name="name" placeholder="Enter your name !" required> <span> *</span></p>
+	<p><label>Mobile Number : </label><input type="number" name="mobile" placeholder="Please enter 10 digits mobile number "></p>
+	<p><label>Email : </label><input type="email" name="email" placeholder="Please enter valid email id "></p>
+	<p><label>Address : </label><textarea placeholder="Full address"></textarea></p>
+	<p><label>Profile : </label> 
+	<select name="profile">
+	<option>Select your Profile</option>
+		<option value="Web Developer">Web Developer</option>
+		<option value="Web Designer">Web Designer</option>
+		<option value="Graphics Designer">Graphics Designer</option>
+	</select></p>
+	<p><label>Knowledge : </label> 
+		<input type="checkbox" name="laguage1" value="C"> C 
+		<input type="checkbox" name="laguage2" value="C++"> C++
+		<input type="checkbox" name="laguage3" value="Java"> Java 
+		</p>
+		<p><label>D.O.B : </label> <input type="date" name="dob" ></p>
+		</p>
+		<p><label>Gender : </label> 
+		<input type="radio" name="gender" value="Male"> Male 
+		<input type="radio" name="gender" value="Female"> Female 
+		<p><label>Upload Image : </label> <input type="file" name="image"></p>
+		</p>
+		<p><label>password : </label> <input type="password" name="password" placeholder="Please enter your password "></p>
+		</p>
+		<p> <input type="button" name="clickme" value="Click Me"> <input type="submit" name="Register" value="Register Now"> <input type="reset" name="reset" value="Reset"></p>
+		<p>You are all ready registered <a href="https://www.findscareers.com/login.php"> Login </a> here</p>
+</fieldset>
+</form>
+</body>
+</html>
